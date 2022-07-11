@@ -93,8 +93,8 @@ while True:
         messagebox.showinfo('The input message decrypted is:', decryptedMessage)
     
     else:
-        break
-root.mainloop()
+        continue        #the message box will show again if user inputs something other than encrypt/decrypt
+
         
 
 
