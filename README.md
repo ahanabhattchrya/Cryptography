@@ -4,5 +4,4 @@ This is a simple python project that allows users to encrypt and decrypt a messa
 ## At a Glance 
 
 ### Encrypting a Message
-https://user-images.githubusercontent.com/73315015/178359077-94076ccb-4a55-48e7-bf59-46cacc8f3b56.mov
-
+![encryptingMessage](https://user-images.githubusercontent.com/73315015/178359526-51120832-1130-45d9-a72d-ce6ea4382d4a.gif)
