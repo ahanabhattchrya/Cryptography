@@ -12,3 +12,8 @@ General Outline/Goals of this project:
     - in order to decrypt a message we have to convert the secret message into meaningful text/plaintext
 '''
 
+from tkinter import messagebox, simpledialog, Tk                #tkinter basically provides us with a GUI toolkit
+
+#to see if tkinter is properly installed in your machine, type 'python -m tkinter' in the command line
+
+
