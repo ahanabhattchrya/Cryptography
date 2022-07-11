@@ -64,8 +64,11 @@ def swapletters(message):
     finalMessage = ''.join(swappedList)
     return finalMessage
 
+'''
+The following functions get user choice and input. For this we use the simpledialog modules and askstring method from tkinter!
+'''
 def getChoice():
-    choice = simpledialog.askstring("Choice", "Would you like to encrypt or decrypt a message?")                      #read more about simpledialog here: https://docs.python.org/3/library/dialog.html
+    choice = simpledialog.askstring("Choice", "Would you like to encrypt or decrypt a message?")      #read more about simpledialog here: https://docs.python.org/3/library/dialog.html
     return choice
 
 def getMessage():
