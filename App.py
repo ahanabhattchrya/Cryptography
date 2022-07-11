@@ -57,7 +57,7 @@ def swapletters(message):
     evenLettersList = getEvenLetters(message)
     oddLettersList = getOddLetters(message)
     
-    for letter in range(0, int(len(message)//2)):          #for each iteration a even & odd letter is added to the swapped list
+    for letter in range(0, int(len(message)//2)):          #for each iteration an odd & even letter is added to the swapped list
         swappedList.append(oddLettersList[letter])
         swappedList.append(evenLettersList[letter])
         
