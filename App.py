@@ -22,4 +22,25 @@ isEven() is a helper function that takes in a number and returns True if the num
 def isEven(number):
     return number % 2 == 0 
 
+'''
+The following functions getEvenLetters() and getOddLetters() take in a message and return the even and odd letters in a list format
+from that message respectively.
+'''
+def getEvenLetters(message):
+    evenLetters = []
+    for letter in range(0, len(message)):
+        if isEven(letter) == True:
+            evenLetters.append(message[letter])
+        else:
+            letter += 1
+    return evenLetters
+
+def getOddLetters(message):
+    oddLetters = []
+    for letter in range(0, len(message)):
+        if isEven(letter) == False:
+            oddLetters.append(message[letter])
+        else:
+            letter += 1
+    return oddLetters
 
