@@ -3,7 +3,8 @@ This is a simple personal project built with Python 3 by me (Ahana) to work on a
 started simply for practice purposes only. Additionaly to make sure I understood the code and logic behind this App I have commented
 several lines with detailed description on what they do and how they work. 
 
-This project was inspired by a python encryption/decryption project done in my linear algebra course.
+This project was inspired by a python encryption/decryption project done in my linear algebra course, as well as a similar one done in 
+my Systems programming course (CSE 220) in C.
 
 General Outline/Goals of this project:
     - rearrange order of letters, do this by putting letters in even and odd positions
