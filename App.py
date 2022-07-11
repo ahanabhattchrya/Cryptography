@@ -69,9 +69,32 @@ The following functions get user choice and input. For this we use the simpledia
 '''
 def getChoice():
     choice = simpledialog.askstring("Choice", "Would you like to encrypt or decrypt a message?")      #read more about simpledialog here: https://docs.python.org/3/library/dialog.html
-    return choice
+    return choice.lower()
 
 def getMessage():
     message = simpledialog.askstring("Message", "Enter the messsage please")
     return message 
+
+root = Tk()         #creating an instance of the tinker frame/window to display root window + manage other components
+
+'''
+The following loop returns the user the message they would like to see!
+'''
+while True:
+    choice = getChoice()
+    if choice == "encrypt":
+        message = getMessage()
+        encryptedMessage = swapletters(message)
+        messagebox.showinfo('The input message encrypted is:', encryptedMessage)
+    
+    elif choice == "decrypt":
+        message = getMessage()
+        decryptedMessage = swapletters(message)
+        messagebox.showinfo('The input message decrypted is:', decryptedMessage)
+    
+    else:
+        break
+root.mainloop()
+        
+
 
