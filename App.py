@@ -63,3 +63,12 @@ def swapletters(message):
         
     finalMessage = ''.join(swappedList)
     return finalMessage
+
+def getChoice():
+    choice = simpledialog.askstring("Choice", "Would you like to encrypt or decrypt a message?")                      #read more about simpledialog here: https://docs.python.org/3/library/dialog.html
+    return choice
+
+def getMessage():
+    message = simpledialog.askstring("Message", "Enter the messsage please")
+    return message 
+
