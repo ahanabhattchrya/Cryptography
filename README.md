@@ -8,3 +8,5 @@ This is a simple python project that allows users to encrypt and decrypt a messa
 
 ### Decrypting a Message
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/73315015/178363195-4dca3280-9350-46e1-a0d2-c2d5a1b7fad2.gif)
+
+(**note**: if the message length is an odd number it adds x to it)
