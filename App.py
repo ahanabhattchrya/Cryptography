@@ -45,3 +45,21 @@ def getOddLetters(message):
             letter += 1
     return oddLetters
 
+'''
+The swapped letters function takes in a message and makes sure its even, after that it creates a new message with all the letters
+swapped from the original message. For this it uses the above two helper functions.
+'''
+def swapletters(message):
+    if isEven(len(message)) != True:                        #make message length even
+        message = message + "x"
+        
+    swappedList = []
+    evenLettersList = getEvenLetters(message)
+    oddLettersList = getOddLetters(message)
+    
+    for letter in range(0, int(len(message)//2)):          #for each iteration a even & odd letter is added to the swapped list
+        swappedList.append(oddLettersList[letter])
+        swappedList.append(evenLettersList[letter])
+        
+    finalMessage = ''.join(swappedList)
+    return finalMessage
