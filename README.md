@@ -7,4 +7,4 @@ This is a simple python project that allows users to encrypt and decrypt a messa
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/73315015/178360462-ac79f4a2-d812-44c9-a17f-db5a04a44b46.gif)
 
 ### Decrypting a Message
-![Screen Recording 2022-07-11 at 17 29 41](https://user-images.githubusercontent.com/73315015/178362253-b2007c46-ffdd-4880-864f-36034e5d1400.gif)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/73315015/178363195-4dca3280-9350-46e1-a0d2-c2d5a1b7fad2.gif)
