@@ -16,4 +16,10 @@ from tkinter import messagebox, simpledialog, Tk                #tkinter basical
 
 #to see if tkinter is properly installed in your machine, type 'python -m tkinter' in the command line
 
+'''
+isEven() is a helper function that takes in a number and returns True if the number is even and false otherwise
+'''
+def isEven(number):
+    return number % 2 == 0 
+
 
